@@ -1,0 +1,27 @@
+\documentclass{report}
+\begin{document}
+\section{Dataset}
+\label{sec:Netodataset}
+The dataset consists of twenty-three paired recording with a distance of less than 200um between the targeted neuron and the closest extracellular electrode. These were acquired from numberofcells cells, from the cortex of numberofrats anesthetized rats.
+
+On figure (figure2b neto et al) is an example of the signal acquired from using the juxtacellular pipette, which, with an amplitude of around 4mV, reveals the typical high signal-to-ratio that the signal this probe yields. On the figure (figure 2c neto et al), many of the spikes were aligned and  plotted together. We can see that this waveform keeps it shape over the course of the recording. In this case, as is in most of the recording, it has a positive-before-negative biphasic waveform, which is indicative that there was a good coupling between the pipette and the neuron's soma (Herfst et al, 2012). However, in two case, that I used, the waveform has a negative-before-positive profile indicating incomplete contact between the cell membrane and the pipette, lowering the signal-to-ratio (SNR) significantly but remaining detectable. (2015\_09\_03\_Pair9.0 and 2015\_09\_04\_Pair5.0).
+
+With such a high SNR, one can reliably use a simple threshold-based detector to calculate the times (hereafter juxta times) at which the juxta neuron spiked.The earliest extracellular recordings in the dataset were done using the 32-channel probe. Part of one  of these recordings after the high-pass filter is illustrated in the figure (figure 2e neto et al).  Each of these traces are plotted next to its neighbors, according the geometry of the probe. Most of the spikes are sensed by many electrodes revealing a coherent region of influence. This signal usually doesn't have a high SNR, as can be seen in figure (figure 2f neto et al). To get the waveform of the EAP on this probe we perform Juxta-Triggered Averages (JTAs), where windows of 4 ms centered on the juxta spikes are averaged so that the noise decreases and the waveform becomes clear. In figure (figure 2h neto et al) are represented the JTAs of each electrode in its correct position in the 32-channel probe. It is possible to see that the EAP has a different waveform on different electrode sites. They are also displaced in time: on electrodes farther way, the waveform is delayed with respect to one on a electrode closer to the neuron. The JTA peak-to-peak amplitude for each channel interpolated within the electrode site geometry, sometimes called “the cell footprint” (Delgado Ruz and Schultz, 2014), is shown in Figure (Figure 2g neto)
+
+During the course of this project I focused on 5 recordings where the 128-channels probe was used that are presented in figure (figure 6 neto et al.) and described in table (table-summary-of-recordings):
+\begin{table}[t]
+\centering
+\begin{tabular}{|c|c|c|c|c|p{1cm}|p{1cm}|}
+\hline
+\textbf{Recording ID} & \textbf{Distance \(\mu m\)} & \textbf{Error (µm)} & \textbf{P2P (µV)} & \textbf{Depth (µm)} & \textbf{\# Juxta spikes} & \textbf{Juxta threshold (mV)} \\ \hline
+2015\_09\_09\_Pair7.0 & 136.2 & 40 & 20.7 & 1032.8 & 1082 & 1.0 \\ \hline
+2015\_09\_04\_Pair5.0 & 96.1 & 40 & 30.8 & 1185.5 & 185 & -1.0 \\ \hline
+2015\_09\_03\_Pair6.0 & 153.3 & 40 & 24.1 & 1063.2 & 3329 & 1.0 \\ \hline
+2015\_09\_03\_Pair9.0 & 11.5 & 40 & 416.3 & 1152.8 & 5007 & -0.2 \\ \hline
+2015\_08\_21\_Pair3.0 & 132.8 & 40 & 19.4 & 1286.0 & 8117 & 0.4 \\ \hline
+\end{tabular}
+\caption{Information about the recordings used}
+\label{tab:sum_recordings}
+\end{table}
+
+\end{document}
