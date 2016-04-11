@@ -64,6 +64,19 @@ In this document, spike trains were sequences of times at which events occurred.
 
 AND BACK!!
 \section{Results}
+To be sure about the quality of the juxtacellular recording, auto-correlograms were computed for each recording (Fig. \ref{fig:AC}).
+\begin{figure}[!h]
+	\centering
+	\includegraphics[width=\linewidth]{AC.pdf}
+	\caption{Auto-Correlograms for all the recordings. The size of the bins in the histograms is 1 ms and the value for the lag is 50ms.
+}
+\label{fig:AC}
+\end{figure}
+
+All the auto-correlogram display a normal distribution, with a very consistent gap in the interval from -5ms to 5ms, assuring that the cell never spiked within 5ms of the previous, which conforms with the typical values of refractory period of 2-3ms.
+
+It is worth noting that on the recording 939 the second peak is resolved around $\tau = -5 ms$ and $\tau = 5 ms$.
+
 For each recording, phy was run with the following parameters:
 The data was filtered with a forwards-backwards Butterworth filter of order 3 with cutoff frequency set to 500Hz. The noise standard deviation was evaluated in 50 excerpts of 1 second each. The weak threshold was $\theta_w = 2 \sigma_{noise}$ and the strong threshold was $\theta_s = 4.5 \sigma_{noise}$.
 
@@ -73,7 +86,7 @@ In Fig. \ref{fig:CC} are the whole-probe cross-correlograms for the recordings.
 
 \begin{figure}[!h]
 	\centering
-	\includegraphics{CC.pdf}
+	\includegraphics[width=\linewidth]{CC.pdf}
 	\caption{Cross-Correlograms for all the recordings. The size of the bins in the histograms is 1 ms and the value for the lag is 50ms.
 }
 \label{fig:CC}
