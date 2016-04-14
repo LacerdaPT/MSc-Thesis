@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.8)  13 APR 2016 19:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.13)  14 APR 2016 03:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Chap3-Methods.tex
 (./Chap3-Methods.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+Babel <3.9h> and hyphenation patterns for 3 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
@@ -285,12 +285,12 @@ Missing character: There is no € in font cmr10!
 Missing character: There is no “ in font cmr10!
  [8] [9] (./Chap3-Methods.aux) ) 
 Here is how much of TeX's memory you used:
- 2444 strings out of 495028
- 32168 string characters out of 6181498
- 90282 words of memory out of 5000000
- 5630 multiletter control sequences out of 15000+600000
+ 2444 strings out of 495004
+ 32168 string characters out of 6180662
+ 90372 words of memory out of 5000000
+ 5640 multiletter control sequences out of 15000+600000
  7476 words of font info for 29 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 16 hyphenation exceptions out of 8191
  38i,9n,26p,1066b,223s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
@@ -306,7 +306,7 @@ st/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts
 /public/amsfonts/cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
 ts/symbols/msam10.pfb>
-Output written on Chap3-Methods.pdf (9 pages, 175728 bytes).
+Output written on Chap3-Methods.pdf (9 pages, 175886 bytes).
 PDF statistics:
  99 PDF objects out of 1000 (max. 8388607)
  70 compressed objects within 1 object stream
