@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}
+
+\bibitem{gold2007biophysics}
+Carl Gold.
+\newblock {\em Biophysics of extracellular action potentials}.
+\newblock PhD thesis, California Institute of Technology, 2007.
+
+\bibitem{kandel}
+Eric~Richard Kandel, James~Harris Schwartz, Thomas~M. Jessell, and Sarah Mack,
+  editors.
+\newblock {\em Principles of neural science}.
+\newblock McGraw-Hill Medical, New York, Chicago, San Francisco, 2013.
+
+\bibitem{Netoetal}
+Joana~P. Neto, Gon{\c c}alo Lopes, Jo{\~a}o Fraz{\~a}o, Joana Nogueira, Pedro
+  Lacerda, Pedro Bai{\~a}o, Arno Aarts, Alexandru Andrei, Silke Musa, Elvira
+  Fortunato, Pedro Barquinha, and Adam Kampff.
+\newblock Validating silicon polytrodes with paired juxtacellular recordings:
+  method and dataset.
+\newblock {\em bioRxiv}, 2016.
+
+\bibitem{Rossant2016}
+Cyrille Rossant, Shabnam~N. Kadir, Dan F.~M. Goodman, John Schulman, Maximilian
+  L.~D. Hunter, Aman~B. Saleem, Andres Grosmark, Mariano Belluscio, George~H.
+  Denfield, Alexander~S. Ecker, Andreas~S. Tolias, Samuel Solomon, Gyorgy
+  Buzsaki, Matteo Carandini, and Kenneth~D. Harris.
+\newblock Spike sorting for large, dense electrode arrays.
+\newblock {\em Nat Neurosci}, 19(4):634--641, Apr 2016.
+\newblock Technical Report.
+
+\end{thebibliography}
